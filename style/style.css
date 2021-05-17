@@ -101,6 +101,7 @@ body {
           justify-content: space-between;
   -webkit-transition: all 1s;
   transition: all 1s;
+  cursor: pointer;
 }
 
 .faq__item__title h3 {
@@ -155,7 +156,7 @@ body {
 }
 
 .faq__questions {
-  padding: 0 10px;
+  padding: 0 73px 0 0;
   margin: 30px 0;
 }
 
@@ -196,6 +197,9 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     margin-top: 148px;
+  }
+  .faq__questions {
+    padding: 0 10px;
   }
   .faq__image {
     background-image: url("../images/bg-pattern-mobile.svg");

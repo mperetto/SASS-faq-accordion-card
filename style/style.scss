@@ -87,6 +87,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     transition: all 1s;
+    cursor: pointer;
     h3 {
         color: var(--very-dark-desaturated-blue);
         font-size: 1rem;
@@ -133,7 +134,7 @@ body {
 }
 
 .faq__questions {
-    padding: 0 10px;
+    padding: 0 73px 0 0;
     margin: 30px 0;
 }
 
@@ -169,6 +170,9 @@ body {
     .faq {
         flex-direction: column;
         margin-top: 148px;
+    }
+    .faq__questions {
+        padding: 0 10px;
     }
     .faq__image {
         background-image: url('../images/bg-pattern-mobile.svg');
