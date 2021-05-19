@@ -102,11 +102,20 @@ details > summary::-webkit-details-marker {
     transition: all 1s;
     cursor: pointer;
     h3 {
+        position: relative;
         color: var(--very-dark-desaturated-blue);
         font-size: 1rem;
         font-weight: 400;
+        width: 100%;
+        padding-right: 16px;
         transition: all .5s;
     }
+}
+
+h3::after {
+    position: absolute;
+    content: url('../images/icon-arrow-down.svg');
+    right: 0;
 }
 
 .faq__image {
