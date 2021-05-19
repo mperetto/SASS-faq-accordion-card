@@ -69,7 +69,7 @@ details[open] h3 {
   font-weight: 700;
 }
 
-details[open] .faq__icon {
+details[open] h3::after {
   -webkit-transform: rotateZ(180deg);
           transform: rotateZ(180deg);
 }
@@ -128,10 +128,12 @@ details > summary::-webkit-details-marker {
   transition: all .5s;
 }
 
-h3::after {
+.faq__item__title h3::after {
   position: absolute;
   content: url("../images/icon-arrow-down.svg");
   right: 0;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }
 
 .faq__image {
