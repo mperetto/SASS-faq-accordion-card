@@ -67,7 +67,7 @@ details[open] {
     h3 {
         font-weight: 700;
     }
-    .faq__icon img {
+    .faq__icon {
         transform: rotateZ(180deg);
     }
     
@@ -160,7 +160,9 @@ details > summary::-webkit-details-marker {
     padding: 5px 0px;
 }
 
-.faq__icon img {
+.faq__icon {
+    width: 10px;
+    height: 7px;
     transition: all .5s;
 }
 
